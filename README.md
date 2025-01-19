@@ -4,15 +4,15 @@ A delightful cat browsing application built with React, TypeScript, and Vite. Br
 
 ## 🔗 Links
 
-- [Live Demo](https://your-deployed-app-url.com)
-- [Project Walkthrough (Loom)](https://www.loom.com/share/your-video-id)
+- [Live Demo](https://igor-romasiuk.github.io/cat-gallery/)
+- [Project Walkthrough (Loom)](https://www.loom.com/share/c0383191f6d54dddaaa69da2da10cc3d?sid=c458c3d3-1ac7-440f-af57-4cb5372f0b29)
 
 
 ## 🚀 Getting Started
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/igor-romasiuk/cat-gallery.git
 ```
 
 2. Install dependencies

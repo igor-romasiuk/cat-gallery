@@ -3,7 +3,7 @@ import { useBreeds } from "../hooks/useBreeds";
 import { BreedsListProps, Breed } from "../types";
 import { customStyles } from '../styles/selectStyles';
 
-export const BreedsList = ({ setBreedId }: BreedsListProps) => {
+export const BreedSelector = ({ setBreedId }: BreedsListProps) => {
     const { data, isLoading, error } = useBreeds()
 
     if (error) return <div className="text-red-500">{error.message}</div>

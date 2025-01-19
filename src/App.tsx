@@ -5,7 +5,7 @@ import {
 import { useState } from 'react'
 
 import { CatList } from './components/CatList'
-import { BreedsList } from './components/BreedsList'
+import { BreedSelector } from './components/BreedSelector'
 
 const queryClient = new QueryClient()
 
@@ -20,7 +20,7 @@ function App() {
             😺 Purr-fect Cat Gallery 🐱
           </h1>
           <div className="mb-8 flex justify-center">
-            <BreedsList setBreedId={setBreedId} />
+            <BreedSelector setBreedId={setBreedId} />
           </div>
           <CatList breedId={breedId} />
         </div>

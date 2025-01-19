@@ -26,6 +26,7 @@ export const useBreeds = () => {
         },
         retry: 2,
         retryDelay: 1000,
+        refetchOnWindowFocus: false,
     })
 
     return res
